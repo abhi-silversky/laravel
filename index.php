@@ -38,7 +38,9 @@
                         return false;
                     }
                     if (ps.length=="") {
-
+                    alert("Password field is empty");
+                    return false;
+                    }
                 }
             }
         </script>
